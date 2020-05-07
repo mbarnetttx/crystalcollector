@@ -1,0 +1,42 @@
+// <!-- Here we have div called "randomNumber" where our random number will go -->
+
+
+
+var random = "";
+
+$(document).ready(function () {
+
+     // ... we generate a random number
+     var random = Math.floor(Math.random() * 120) + 19;
+     console.log(random)
+
+
+     // ... and then dump the random number into our random-number div.
+     $('.rando').text(random);
+})
+     
+
+var wins = 0;
+var losses = 0;
+var total = 0;
+
+$('.winBox').text(wins)
+$("lossBox").text(losses)
+
+ 
+
+    
+
+//  create function that generates a random number and drops it into the randomNumber/rando box
+
+// create a button out of each gem image
+
+// create a function that assigns each image a random number between 1-12
+
+// create a function that adds up each random integer into the guessbox
+
+// if guess total goes over the random number, they lose, add one to losses
+
+// the player wins if they get the same number as the randonumb, add one to wins
+
+// create reset button

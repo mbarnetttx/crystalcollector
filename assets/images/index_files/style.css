@@ -1,0 +1,177 @@
+.jumbotron {
+    /* width: 500px;
+    height: 200px; */
+    /* margin: auto; */
+    text-align: center;
+    background-color: rgb(248, 99, 253);
+   
+}
+
+ #randomNumber {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(91, 189, 247);
+    color: rgb(22, 34, 44);
+    /* margin: auto; */
+    text-align: center;
+    font-size: 20px;
+    margin-top: 20px;
+    padding: 20px;
+    
+    /* margin-left: 100px; */
+    
+}
+
+#numberGuesses {
+    width: 200px;
+    height: 200px;
+    background-color:rgb(91, 189, 247);
+    color: rgb(22, 34, 44);
+    /* margin: auto; */
+    text-align: center;
+    font-size: 20px;
+    margin-top: 20px;
+    padding: 20px;
+    
+}
+
+#lossBox {
+    height: 100px;
+    width: 100px;
+}
+
+#winBox {
+    height: 100px;
+    width: 100px;
+}
+
+#randoBox {
+    height: 100px;
+    width: 100px;
+}
+
+#guessBox {
+    height: 100px;
+    width: 100px;
+}
+
+ #wins {
+    width: 200px;
+    height: 200px;
+    background-color:rgb(127, 252, 175) ;
+    color: rgb(22, 34, 44);
+    /* margin: auto; */
+    text-align: center;
+    font-size: 20px;
+    padding: 20px;
+    
+     
+    
+
+}
+
+/* .bottom-buffer {
+    margin-bottom: 20px;
+} */
+
+#losses {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(127, 252, 175);
+    color: rgb(22, 34, 44);
+    /* margin: auto; */
+    text-align: center;
+    font-size: 20px;
+    padding: 20px;
+    
+}
+
+/* .numbers {
+    margin-left: 225px;
+    margin-top: 20px;
+} */ 
+
+
+
+.gemImage {
+    width: 100px;
+    height: 100px;
+    margin: auto;
+}
+
+.gems {
+    
+    
+    
+}
+
+ @media only screen and (max-width: 850px) {
+    #wins {
+        
+         margin: auto; 
+         
+    }
+
+    #losses {
+        margin: auto;
+    }
+
+    #randomNumber {
+        margin-top: 20px;
+        margin: auto;
+    }
+
+    #numberGuesses {
+        margin-top: 20px;
+       margin: auto;
+    }
+} 
+
+
+@media only screen and (min-width:580px) and (max-width: 768px) {
+    .containermain {
+    margin-left: 100px;
+    }
+
+    .containerbottom {
+        margin-top: 20px;
+        margin-left: 100px;
+    }
+}
+
+@media only screen and  (max-width: 579px) {
+
+    #losses {
+        width: 120px;
+        height: 120px;
+        margin-top: 20px;
+    }
+
+    #wins {
+        width: 120px;
+        height: 120px;
+    }
+
+    #numberGuesses {
+        width: 120px;
+        height: 120px;
+        margin-top: 20px;
+    }
+
+    #randomNumber {
+        width: 120px;
+        height: 120px;
+        
+    }
+    .containermain {
+    margin-left: 100px;
+    }
+
+    .containerbottom {
+        margin-top: 20px;
+        margin-left: 100px;
+    }
+}
+   
+
+ 
